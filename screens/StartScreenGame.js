@@ -30,7 +30,7 @@ const StartScreenGame = (props) => {
         setConfirmed(true)
         setSelectedNumber(chosenNumber)
         setEnteredValue('');
-        Keyboard.dismiss();
+        Keyboard.dismiss(); 
     }
     
     let confirmedOutput;
